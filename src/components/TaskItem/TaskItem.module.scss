@@ -1,0 +1,33 @@
+.task {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+
+  .title {
+    font-size: 1.2rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &.completed {
+      color: gray;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 8px;
+
+    @media (max-width: 600px) {
+      gap: 4px;
+      flex-direction: column;
+    }
+  }
+}
