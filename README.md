@@ -2,12 +2,12 @@
 
 ## Project description:
 
-ToDo Web application, tasks receive from [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
-Based on received tasks it is possible to add, edit and delete tasks
+- ToDo Web application, tasks receive from [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/).
+- Based on received tasks it is possible to add, edit and delete tasks
 
 ## The project is hosted on the Vercel resource at the link:
 
-[https://next-todo.vercel.app/](https://next-todo.vercel.app/)
+[https://next-todo-coral.vercel.app/](https://next-todo-coral.vercel.app//)
 
 ## Commands for building the project:
 
